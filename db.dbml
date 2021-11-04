@@ -1,0 +1,14 @@
+Project Ecommerce {
+  database_type: 'PostgreSQL'
+  Note: '''
+    # Ecommerce Database
+    **markdown content here**
+  '''
+}
+Table users as U {
+  id int [pk, increment]
+  full_name varchar
+  created_at timestamp
+  country_code int
+  note: "table 'users' contains user information"
+}
