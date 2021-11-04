@@ -12,3 +12,8 @@ Table users as U {
   country_code int
   note: "table 'users' contains user information"
 }
+
+Table product {
+  id uuid [pk]
+  product_name varchar
+}
