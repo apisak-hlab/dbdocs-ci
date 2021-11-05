@@ -1,0 +1,12 @@
+Project Animal {
+  database_type: 'PostgreSQL'
+  Note: '''
+    # Animal Database
+    **markdown content here**
+  '''
+}
+
+Table animals {
+  id uuid [pk]
+  animal_type varchar
+}

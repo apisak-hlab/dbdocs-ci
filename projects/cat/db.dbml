@@ -1,0 +1,12 @@
+Project Cat {
+  database_type: 'PostgreSQL'
+  Note: '''
+    # Cat Database
+    **markdown content here**
+  '''
+}
+
+Table cat {
+  id uuid [pk]
+  cat_name varchar
+}
