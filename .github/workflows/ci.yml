@@ -22,4 +22,4 @@ jobs:
     - name: Update dbdocs project
       env:
         DBDOCS_TOKEN: ${{ secrets.DBDOCS_TOKEN }}
-      run: dbdocs build ./db.dbml
+      run: fileList=$(find . -type f -name '*.dbml'); for file in $fileList; do dbdocs build --password ${{ secrets.DBDOCS_PASSWORD }} $file; done;
