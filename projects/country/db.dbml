@@ -1,0 +1,12 @@
+Project Country {
+  database_type: 'PostgreSQL'
+  Note: '''
+    # Country Database
+    **markdown content here**
+  '''
+}
+
+Table country {
+  id uuid [pk]
+  country_name varchar
+}
