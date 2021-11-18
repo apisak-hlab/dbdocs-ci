@@ -9,4 +9,5 @@ Project Animal {
 Table animals {
   id uuid [pk]
   animal_type varchar
+  animal_name varchar
 }

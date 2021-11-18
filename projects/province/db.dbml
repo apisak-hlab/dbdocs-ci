@@ -1,0 +1,12 @@
+Project Province {
+  database_type: 'PostgreSQL'
+  Note: '''
+    # Province Database
+    **markdown content here**
+  '''
+}
+
+Table province {
+  id uuid [pk]
+  province_name varchar
+}
